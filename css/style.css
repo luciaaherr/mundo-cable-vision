@@ -319,6 +319,26 @@ img { max-width: 100%; display: block; }
   .how-to-arrive { grid-template-columns: 1fr; }
 }
 
+/* WhatsApp flotante */
+.whatsapp-float {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  background: #25d366;
+  color: var(--blanco);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+  z-index: 200;
+  transition: transform .15s;
+}
+
+.whatsapp-float:hover { transform: scale(1.08); }
+
 /* Footer */
 .site-footer {
   background: var(--azul);
