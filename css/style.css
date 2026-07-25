@@ -104,7 +104,7 @@ img { max-width: 100%; display: block; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(15,47,95,.75), rgba(15,47,95,.88));
+  background: linear-gradient(180deg, rgba(15,47,95,.45), rgba(15,47,95,.65));
 }
 
 .hero-content { position: relative; }
